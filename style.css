@@ -1,0 +1,46 @@
+/*I have organized my style.css document. The first part is for the logo, the second part is for the body, and the third part creates a class I can use to make specific text italic and grey to indicate that it is another person speaking. */
+
+/*This makes the logo area 50% of the webpage and gives it a margin at the top. */
+.Logo {
+  width: 50%;
+  margin-top: 2%;
+}
+
+/*This makes the logo itself as an image and makes it the full size of the logo area. */
+.Logo > img {
+  width: 100%;
+}
+
+
+
+/*This styles the body, giving it the correct size, font, and margin. */
+.Body_Styling {
+  margin: 1.25%;
+  font-size: 130%;
+
+  font-family: "Comic Sans MS";
+  font-style: normal;
+}
+
+/*This styles h1s to make them closer to the text below them. */
+.Body_Styling > h1 {
+  margin-bottom: -1.5%;
+}
+
+/*This styles h2s to make them a different text size. */
+.Body_Styling > h2 {
+  font-size: 130%;
+}
+
+/*This gives paragraphs an indent, unless explicitly told otherwise in the HTML in a few cases. */
+.Body_Styling > p {
+  text-indent: 5%;
+}
+
+
+
+/*This is the class for styling the text of the second character speaking. */
+.P2 {
+  font-style: italic;
+  color: grey;
+}
